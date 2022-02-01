@@ -1,0 +1,53 @@
+.busca-container {
+display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  height: 123px;
+   
+}
+
+.busca-container input {
+  width: 320px;
+  height: 40px;
+  border-radius: 5px,0px;
+}
+
+.busca-container button {
+  width: 174px;
+  height: 40px;
+  background-color: #00285F ;
+  color: white;
+}
+
+@media (min-width: 320px) {
+
+  .busca-container input {
+    width: 199px;
+   
+  }
+  
+  .busca-container button {
+    width: 77px;
+
+
+  }
+
+ 
+}
+
+@media (min-width: 768px) {
+
+  .busca-container input {
+    width: 516px;
+   
+  }
+  
+  .busca-container button {
+    width: 174px;
+
+
+  }
+
+ 
+}

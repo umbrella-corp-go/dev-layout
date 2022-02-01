@@ -1,0 +1,23 @@
+.product-price-container {
+    display: flex;
+    flex-direction: column;    
+}
+
+
+
+.product-price-container h3 {
+    font-size: 12px;
+    font-style: italic;
+    color: #585858;
+   
+    
+}
+
+.product-price-container button {
+    margin-top: 38px;
+    font-size: 14;
+    background-color: #00285F;
+    color: white;
+    border-radius: 5px;
+
+}
